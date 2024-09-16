@@ -1,0 +1,16 @@
+.header {
+    max-width: 880px;
+    margin: 45px auto 0px;
+}
+
+.header__logo {
+    width: 173px;
+    height: 33px;
+}
+
+.header__linhaHorizontal {
+    border-top: 1px solid #545454; 
+    margin: 0px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}

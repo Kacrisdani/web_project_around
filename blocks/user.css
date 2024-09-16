@@ -1,0 +1,41 @@
+.user {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    max-width: 880px;
+    margin: 0px auto;
+}
+
+.user__avatar {
+    width: 120px; 
+    height: 120px; 
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.user__infos {
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+}
+
+.user__title {
+    margin: 0px;
+    font-weight: 500;
+    font-size: 42px;
+    color: #FFFFFF;
+}
+
+.user__edit {
+    display: flex;
+    flex-direction: row;
+    width: 24px;
+    height: 24px;
+}
+
+.user__job {
+    margin-top: 16px;
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+}
