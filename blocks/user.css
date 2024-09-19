@@ -1,12 +1,17 @@
 .user {
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-areas: 
+        "avatar infos"
+        ". buttonAdd";
+    grid-template-columns: 120px auto 24px;
     align-items: center;
     max-width: 880px;
     margin: 0px auto;
+    gap: 30px;
 }
 
 .user__avatar {
+    grid-area: avatar;
     width: 120px; 
     height: 120px; 
     border-radius: 50%;
@@ -14,23 +19,16 @@
 }
 
 .user__infos {
+    grid-area: infos;
     display: flex;
     flex-direction: column;
-    padding-left: 30px;
 }
 
-.user__title {
+.user__name {
     margin: 0px;
     font-weight: 500;
     font-size: 42px;
     color: #FFFFFF;
-}
-
-.user__edit {
-    display: flex;
-    flex-direction: row;
-    width: 24px;
-    height: 24px;
 }
 
 .user__job {
@@ -39,3 +37,15 @@
     font-size: 18px;
     color: #FFFFFF;
 }
+
+.user__edit {
+    width: 24px;
+    height: 24px;
+}
+
+.user__buttonAdd {
+    grid-area: buttonAdd;
+    width: 150px;
+    height: 50px;
+}
+
