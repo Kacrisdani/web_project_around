@@ -1,16 +1,15 @@
-.user {
+.profile {
     display: grid;
     grid-template-areas: 
-        "avatar infos"
-        ". buttonAdd";
-    grid-template-columns: 120px auto 24px;
+        "avatar name edit buttonAdd";
+    grid-template-columns: 120px auto 1fr 150px;
     align-items: center;
     max-width: 880px;
     margin: 0px auto;
     gap: 30px;
 }
 
-.user__avatar {
+.profile__avatar {
     grid-area: avatar;
     width: 120px; 
     height: 120px; 
@@ -18,34 +17,42 @@
     object-fit: cover;
 }
 
-.user__infos {
-    grid-area: infos;
+.profile__infos {
     display: flex;
     flex-direction: column;
 }
 
-.user__name {
+.profile__name {
+    grid-area: name;
+    display: flex;
+    align-items: center;
     margin: 0px;
     font-weight: 500;
     font-size: 42px;
     color: #FFFFFF;
 }
 
-.user__job {
+.profile__job {
+    grid-area: job;
     margin-top: 16px;
     font-weight: 400;
     font-size: 18px;
     color: #FFFFFF;
 }
 
-.user__edit {
+.profile__edit {
+    display: flex;
+    align-self: flex-start;
+    margin-top: 24px;
     width: 24px;
     height: 24px;
+    cursor: pointer;
 }
 
-.user__buttonAdd {
+.profile__buttonAdd {
     grid-area: buttonAdd;
     width: 150px;
     height: 50px;
+    justify-self: end;
 }
 

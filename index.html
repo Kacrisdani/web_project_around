@@ -20,20 +20,21 @@
         <div class="header__linhaHorizontal"></div>    
     </header>
 
-    <main>
-        <div class="user">
-            <img class="user__avatar" src="./images/avatar.jpg"
+    <main class="content">
+        <section class="profile">
+            <img class="profile__avatar" src="./images/avatar.jpg"
             alt="Jacques Cousteau">
-            <div class="user__infos">
-            <h2 class="user__name">Jacques Cousteau
-                <img class="user__edit" src="./images/editButton.png"
-                alt="Editar">
-            </h2>
-            <p class="user__job">Explorador </p>
+            <div class="profile__infos">
+                <h2 class="profile__name">Jacques Cousteau</h2>
+                <p class="profile__job">Explorador</p> 
+            </div>
+            <button class="profile__edit">
+                <img src="./images/editButton.png" alt="Editar"> 
+            </button>
             <img class="user__buttonAdd" src="./images/AddButton.png"
             alt="Adicionar">
-            </div>
-        </div>
+        </section>
+          
 
         <section class="gallery">
             <div class="gallery__card">
@@ -104,7 +105,21 @@
 
         </section>
 
-
+        <section class="modal__container">
+            <div class="modal">
+                <button class="modal__close_button">
+                    <img src="images/closeIcon.svg" alt="Botão de fechar">
+                </button>
+                   
+                <h2 class="modal__title">Editar Perfil</h2>
+                <form class="modal__form">
+                    <input class="modal__form_input" type="text" placeholder="Nome" value="Jacques Cousteau" minlength="2" maxlength="20" required/>
+                    <input class="modal__form_input" type="text" placeholder="Profissão" value="Explorador" minlength="2" maxlength="40" required/>
+                    <button class="modal__form_button" type="submit">Salvar</button>
+                </form>
+            </div>
+        </section>
+        
         
     </main>
 
@@ -113,5 +128,6 @@
 
     </footer>
 
+    <script src="pages/script.js"></script>
 </body>
 </html>
