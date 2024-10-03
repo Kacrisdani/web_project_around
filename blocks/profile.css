@@ -1,4 +1,5 @@
 .profile {
+    width: 100%;
     display: grid;
     grid-template-areas: 
         "avatar name edit buttonAdd";
@@ -40,13 +41,19 @@
     color: #FFFFFF;
 }
 
-.profile__edit {
+.profile__edit_button {
     display: flex;
     align-self: flex-start;
     margin-top: 24px;
     width: 24px;
     height: 24px;
     cursor: pointer;
+    border: none;
+    background: none;
+}
+
+.profile__edit_button:hover {
+    opacity: 50%;
 }
 
 .profile__buttonAdd {
@@ -56,3 +63,25 @@
     justify-self: end;
 }
 
+.profile__buttonAdd:hover {
+   opacity: 50%;
+
+@media screen and (max-width:720px) {
+    .profile {
+        max-width: 440px;
+        display: grid;
+        grid-template-columns: auto auto 1fr auto;
+        margin: 0px 26px;
+    }
+
+    .profile__name {
+        font-size: 32px;
+    }
+
+}
+
+@media screen and (max-width:320px) {
+    .header {
+        max-width: 282px;
+    }
+}

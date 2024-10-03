@@ -1,4 +1,5 @@
 .gallery {
+    width: 100%;
     max-width: 880px;
     margin: 0px auto;
     margin-top: 50px;
@@ -52,4 +53,42 @@
     margin: 0px;
     padding: 0px;
     cursor: pointer;
+    width: 21px;
+    height: 19px;
+}
+
+.gallery__buttonLike:hover{
+    opacity: 50%;
+}
+
+.gallery__buttonLike.active{
+    content: url(/images/likeactive.svg);
+}
+
+.gallery__buttonLike img {
+    width: 21px;  
+    height: 19px;
+}
+
+.gallery__buttonLike.active img {
+    content: none;
+    src: url('./images/likeactive.svg');
+}
+
+
+@media screen and (max-width: 720px) {
+    .gallery {
+        max-width: 440px;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, auto);
+        align-items: center;
+    }
+}
+
+
+@media screen and (max-width: 320px) {
+    .gallery {
+        grid-template-columns: repeat(1, 282px);
+    }
+
 }
