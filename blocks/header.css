@@ -1,6 +1,6 @@
 .header {
-    width: 100%;
-    max-width: 880px;
+    max-width: 100%;
+    width: 880px;
     margin: 45px auto 0px;
 }
 
@@ -16,13 +16,13 @@
     margin-bottom: 40px;
 }
 
-@media screen and (max-width:720px) {
+@media screen and (max-width:1280px) {
     .header {
-        max-width: 440px;
+        max-width: 688px;
     }
 }
 
-@media screen and (max-width:320px) {
+@media screen and (max-width:544px) {
     .header {
         max-width: 282px;
     }

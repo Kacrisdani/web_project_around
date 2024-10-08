@@ -23,8 +23,8 @@ document.addEventListener('DOMContentLoaded', () => {
     function handleProfileFormSubmit(evt) {
         evt.preventDefault();
 
-        const nameInput = document.querySelector('.popup__form_input[type="text"]:nth-child(1)');
-        const jobInput = document.querySelector('.popup__form_input[type="text"]:nth-child(2)');
+        const nameInput = document.querySelector('#nome');
+        const jobInput = document.querySelector('#profissao');
 
         const nome = nameInput.value;
         const profissao = jobInput.value;
@@ -35,7 +35,6 @@ document.addEventListener('DOMContentLoaded', () => {
         profileName.textContent = nome;
         profileJob.textContent = profissao;
 
-        const popupContainer = document.querySelector('.popup__container');
         popupContainer.classList.remove('active')
 
     }
@@ -50,10 +49,8 @@ document.addEventListener('DOMContentLoaded', () => {
             button.classList.toggle('active');
         
         if (button.classList.contains('active')) {
-            // Altera para o ícone preenchido
             likeIcon.src = './images/likeactive.svg';
         } else {
-            // Altera para o ícone de contorno
             likeIcon.src = './images/like.svg';
         }
     });
