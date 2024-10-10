@@ -78,8 +78,9 @@
 
 @media screen and (max-width: 1280px) {
     .gallery {
-        max-width: 440px;
-        grid-template-columns: repeat(2, 1fr);
+        max-width: 880px;
+        min-width: 545px;
+        grid-template-columns: repeat(2, 282px);
         grid-template-rows: repeat(3, auto);
         align-items: center;
         justify-content: center;
@@ -89,9 +90,12 @@
 
 @media screen and (max-width: 544px) {
     .gallery {
-        max-width: 282px;
-        margin: 36px auto;
-        grid-template-columns: repeat(1, 1fr);
+        max-width: 544px;
+        min-width: 282px;
+        margin: 36px 0px;
+        grid-template-columns: repeat(1, 282px);
+        align-items: center;
+        justify-content: center;
     }
 
 }
