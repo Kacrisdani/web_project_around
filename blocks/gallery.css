@@ -92,7 +92,7 @@
     .gallery {
         max-width: 544px;
         min-width: 282px;
-        margin: 36px 0px;
+        margin: 36px auto;
         grid-template-columns: repeat(1, 282px);
         align-items: center;
         justify-content: center;

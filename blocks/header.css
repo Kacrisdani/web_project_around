@@ -16,9 +16,15 @@
     margin-bottom: 40px;
 }
 
-@media screen and (max-width:1280px) {
+@media screen and (max-width:1024px) {
     .header {
         max-width: 688px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .header {
+        max-width: 432px;
     }
 }
 
@@ -27,3 +33,15 @@
         max-width: 282px;
     }
 }
+
+/* @media screen and (max-width:1280px) {
+    .header {
+        max-width: 688px;
+    }
+}
+
+@media screen and (max-width:682px) {
+    .header {
+        max-width: 282px;
+    }
+}/

@@ -109,7 +109,7 @@
     opacity: 80%;
 }
 
-@media screen and (max-width: 544px) {
+@media screen and (max-width: 678px) {
     .popup {
         width: 282px;
     }
