@@ -1,4 +1,4 @@
-.popup__container {
+.popupContainer {
     display: grid;
     place-items: center;
     max-width: 100%;
@@ -12,7 +12,7 @@
     pointer-events: none;
 }
 
-.popup__container.active {
+.popupContainer.active {
     opacity: 1;
     pointer-events: auto;
 }
