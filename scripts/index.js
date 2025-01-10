@@ -1,6 +1,6 @@
-const editButton = document.querySelector('.profile__edit_button');
+const editButton = document.querySelector('.profile__edit-button');
 const popupContainer = document.querySelector('.popup__container');
-const closeButton = document.querySelector('.popup__close_button');
+const closeButton = document.querySelector('.popup__close-button');
 
 editButton.addEventListener('click', () => {
     popupContainer.classList.add('active');  

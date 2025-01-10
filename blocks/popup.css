@@ -31,7 +31,7 @@
     border-radius: 10px;
 }
 
-.popup__close_button {
+.popup__close-button {
     position: absolute;
     top: -40px;
     right: -40px;
@@ -68,7 +68,7 @@
     max-width: 100%;
 }
 
-.popup__form_input {
+.popup__form-input {
     display: block;
     max-width: 100%;
     width: 358px;
@@ -91,7 +91,7 @@
 }
 
 
-.popup__form_button {
+.popup__form-button {
     max-width: 100%;
     width: 358px;
     height: 50px;
@@ -105,7 +105,7 @@
     cursor: pointer;
 }
 
-.popup__form_button:hover {
+.popup__form-button:hover {
     opacity: 80%;
 }
 
@@ -132,11 +132,11 @@
       width: 238px;
     }
     
-    .popup__form_input {
+    .popup__form-input {
       width: 238px;
     }
 
-    .popup__form_button {
+    .popup__form-button {
       width: 238px;
       height: 46px;
     }

@@ -20,21 +20,21 @@
     border-radius: 10px 10px 10px 10px;
 }
 
-.gallery__card_image {
+.gallery__card-image {
     width: 282px;
     height: 282px;
     object-fit: cover;
     flex-grow: 1;
 }
 
-.gallery__card_itens {
+.gallery__card-itens {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items:last baseline;
     margin: 25px 15px 31px 21px;
 }
-.gallery__card_title {
+.gallery__card-title {
     font-family: Inter;
     font-size: 24px;
     font-weight: 900;

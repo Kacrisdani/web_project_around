@@ -40,7 +40,7 @@
     color: #FFFFFF;
 }
 
-.profile__edit_button {
+.profile__edit-button {
     width: 24px;
     height: 24px;
     margin-top: 15px;
@@ -121,7 +121,7 @@
     max-width: 320px;
   }
 
-  .profile__edit_button {
+  .profile__edit-button {
     width: 18px;
     height: 18px;
     margin-top: 4px;
