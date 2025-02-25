@@ -132,13 +132,13 @@
     padding: 20px;
     border-radius: 10px;
     position: relative;
-    max-width: 80%;
-    max-height: 80%;
+    max-width: 75%;
+    max-height: 75%;
 }
 
 .popupImage__content {
     max-width: 100%;
-    max-height: 70vh;
+    max-height: 75vh;
     display: block;
     margin: 0 auto;
 }
@@ -164,7 +164,7 @@
     width: 40px;
     height: 40px;
 }
-        
+
 
 @media screen and (max-width: 678px) {
     .popupNewPlace {
@@ -184,7 +184,7 @@
     .popupNewPlace_form {
       width: 238px;
     }
-    
+
     .popupNewPlace__form-input {
       width: 238px;
     }
@@ -197,7 +197,7 @@
     .popupImage {
         width: 282px;
     }
-    
+
 
     .popupImage__close-button {
         right: -4px;
